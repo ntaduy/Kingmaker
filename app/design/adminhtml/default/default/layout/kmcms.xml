@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+ 
+<layout>
+    <adminhtml_episode_index>
+        <reference name="content">
+            <block type="kmcms/adminhtml_episode" name="episode" />
+        </reference>
+    </adminhtml_episode_index>
+    
+     <adminhtml_episode_edit>
+        <update handle="editor"/> 
+        <reference name="content">
+            <block type="kmcms/adminhtml_episode_edit" name="episode_edit" />
+        </reference>
+    </adminhtml_episode_edit>
+    
+     <adminhtml_show_index>
+        <reference name="content">
+            <block type="kmcms/adminhtml_show" name="show" />
+        </reference>
+    </adminhtml_show_index>
+    
+     <adminhtml_show_edit>
+        <update handle="editor"/> 
+        <reference name="content">
+            <block type="kmcms/adminhtml_show_edit" name="show_edit" />
+        </reference>
+    </adminhtml_show_edit>
+ 
+</layout>
