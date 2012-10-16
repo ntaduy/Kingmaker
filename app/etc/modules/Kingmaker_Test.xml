@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kingmaker_Test>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Kingmaker_Test>
+    </modules>
+</config>
